@@ -17,6 +17,7 @@
 
 .header-menu>li {
     cursor: pointer;
+    transition: 0.2s all;
 }
 
 .header-menu>li:hover {
