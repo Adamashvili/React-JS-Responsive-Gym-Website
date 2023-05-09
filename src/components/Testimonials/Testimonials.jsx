@@ -36,7 +36,7 @@ const Testimonials = () => {
                     selected === tLenght -1 ? setSelected(0) :
                     setSelected((prev) => prev +1)
 
-                }} src={rightArrow} alt="photos" />
+                }} src={rightArrow} alt="pictures" />
             </div>
         </div>
     </div>
