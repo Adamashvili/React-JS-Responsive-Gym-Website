@@ -2,6 +2,8 @@
     display: flex;
     padding: 0 2rem;
     gap: 10rem;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .left-j {
@@ -49,6 +51,7 @@
 
 ::placeholder {
     color: var(--lightgray);
+    font-family:cursive;
 }
 
 .btn-j {
