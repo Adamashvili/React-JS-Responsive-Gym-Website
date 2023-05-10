@@ -102,3 +102,17 @@
 .plans>:nth-child(2)>button {
     color: orange;
 }
+
+
+@media screen and (max-width: 768px) {
+    .plans {
+        flex-direction: column;
+    }
+
+    .plans>:nth-child(2) {
+        transform: none;
+    }
+    .plans>:nth-child(2):hover {
+        transform: scale(1.1);
+    }
+}
